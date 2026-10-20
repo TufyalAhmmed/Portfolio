@@ -118,7 +118,7 @@ Portfolio/
 
 **Tufyal Ahmmed**  
 - **Role:** AI-Augmented QA Engineer | SDET  
-- **Email:** [tufyal15-133@diu.edu.bd](mailto:tufyal15-133@diu.edu.bd) | [ahmmedtufyal1@gmail.com](mailto:ahmmedtufyal1@gmail.com)  
+- **Email:** [ahmmedtufyal1@gmail.com](mailto:ahmmedtufyal1@gmail.com)  
 - **LinkedIn:** [linkedin.com/in/tufyalahmmed](https://www.linkedin.com/in/tufyalahmmed)  
 - **GitHub:** [github.com/TufyalAhmmed](https://github.com/TufyalAhmmed)  
 - **Location:** Dhaka, Bangladesh
