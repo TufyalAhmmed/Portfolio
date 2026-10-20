@@ -364,7 +364,7 @@ ul, ol {
   background-color: var(--accent-primary-subtle);
 }
 
-/* Mobile Nav Toggle */
+/* Mobile Nav Toggle & Overlay */
 .mobile-nav-toggle {
   display: none;
   width: 40px;
@@ -374,6 +374,10 @@ ul, ol {
   color: var(--text-primary);
   align-items: center;
   justify-content: center;
+}
+
+.mobile-menu-overlay {
+  display: none;
 }
 
 /* --------------------------------------------------------------------------
