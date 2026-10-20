@@ -1,0 +1,1313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tufyal Ahmmed | AI-Augmented QA Engineer & SDET Portfolio</title>
+  <meta name="description" content="Portfolio of Tufyal Ahmmed — AI-Augmented QA Engineer & SDET with 4+ years of experience across Web, Mobile, API automation, Appium MCP integrations, and k6 performance testing.">
+  <meta name="author" content="Tufyal Ahmmed">
+  <meta name="color-scheme" content="light dark">
+
+  <!-- FOUC Prevention for Color Scheme Override -->
+  <script>
+    try {
+      const storedScheme = localStorage.getItem("color-scheme");
+      if (storedScheme) {
+        document.querySelector('meta[name="color-scheme"]').content = storedScheme;
+      }
+    } catch (e) {}
+  </script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%232563eb'/><text x='50%' y='55%' dominant-baseline='central' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='800' font-size='52'>TA</text></svg>">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar" id="top">
+    <div class="container">
+      <a href="#top" class="brand" aria-label="Tufyal Ahmmed Portfolio">
+        <span class="brand-badge">TA</span>
+        <span>Tufyal Ahmmed</span>
+      </a>
+
+      <nav class="nav-links" aria-label="Main Navigation">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#specializations" class="nav-link">Specializations</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Theme Toggle Button -->
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle color theme" title="Toggle theme">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/>
+          </svg>
+        </button>
+
+        <a href="assets/Tufyal_Ahmmed_Resume.pdf" class="btn btn-primary btn-sm" download target="_blank" rel="noopener">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+            <polyline points="7 10 12 15 17 10"/>
+            <line x1="12" y1="15" x2="12" y2="3"/>
+          </svg>
+          <span>Download CV</span>
+        </a>
+
+        <!-- Mobile Menu Hamburger -->
+        <button id="mobile-toggle" class="mobile-nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="4" y1="12" x2="20" y2="12"/>
+            <line x1="4" y1="6" x2="20" y2="6"/>
+            <line x1="4" y1="18" x2="20" y2="18"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Menu Dropdown -->
+  <div class="mobile-menu-overlay" id="mobile-menu">
+    <div class="mobile-nav-list">
+      <a href="#about" class="mobile-nav-link">About</a>
+      <a href="#specializations" class="mobile-nav-link">Specializations</a>
+      <a href="#experience" class="mobile-nav-link">Experience</a>
+      <a href="#projects" class="mobile-nav-link">Projects</a>
+      <a href="#skills" class="mobile-nav-link">Skills</a>
+      <a href="#education" class="mobile-nav-link">Education</a>
+      <a href="#contact" class="mobile-nav-link">Contact</a>
+    </div>
+    <a href="assets/Tufyal_Ahmmed_Resume.pdf" class="btn btn-primary" style="width: 100%; text-align: center;" download target="_blank" rel="noopener">
+      Download CV / Resume
+    </a>
+  </div>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="about">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <div class="hero-status-pill">
+              <span class="status-dot"></span>
+              <span>Available for SDET & QA Engineering Roles</span>
+            </div>
+
+            <h1 class="hero-title">
+              Hi, I'm <span class="text-gradient">Tufyal Ahmmed</span>
+            </h1>
+
+            <div class="hero-role">
+              <span>AI-Augmented QA Engineer</span>
+              <span style="color: var(--text-muted);">•</span>
+              <span>SDET</span>
+              <span style="color: var(--text-muted);">•</span>
+              <span style="color: var(--text-secondary); font-size: 1.05rem;">Automation & Performance</span>
+            </div>
+
+            <p class="hero-description">
+              Results-driven QA Engineer / SDET with <strong>4+ years of experience</strong> architecting scalable test automation frameworks across <strong>Web, Mobile, and API</strong> platforms. Proven track record of accelerating release cycles by blending traditional software test engineering with cutting-edge <strong>AI-assisted workflows (GitHub Copilot, Claude AI, Appium MCP)</strong> and <strong>k6 performance engineering</strong> to ship resilient code with confidence.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">
+                <span>View Automation Projects</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 12h14"/>
+                  <path d="m12 5 7 7-7 7"/>
+                </svg>
+              </a>
+
+              <a href="#experience" class="btn btn-secondary">
+                <span>Work Experience</span>
+              </a>
+
+              <a href="assets/Tufyal_Ahmmed_Resume.pdf" class="btn btn-outline" download target="_blank" rel="noopener">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                  <polyline points="7 10 12 15 17 10"/>
+                  <line x1="12" y1="15" x2="12" y2="3"/>
+                </svg>
+                <span>Resume PDF</span>
+              </a>
+            </div>
+
+            <div class="hero-contact-strip">
+              <span class="contact-chip">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/>
+                  <circle cx="12" cy="10" r="3"/>
+                </svg>
+                Dhaka, Bangladesh
+              </span>
+
+              <a href="mailto:ahmmedtufyal1@gmail.com" class="contact-chip">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect width="20" height="16" x="2" y="4" rx="2"/>
+                  <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+                </svg>
+                ahmmedtufyal1@gmail.com
+              </a>
+
+              <a href="https://www.linkedin.com/in/tufyalahmmed" target="_blank" rel="noopener" class="contact-chip">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                  <rect width="4" height="12" x="2" y="9"/>
+                  <circle cx="4" cy="4" r="2"/>
+                </svg>
+                LinkedIn
+              </a>
+
+              <a href="https://github.com/TufyalAhmmed" target="_blank" rel="noopener" class="contact-chip">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/>
+                  <path d="M9 18c-4.51 2-5-2-7-2"/>
+                </svg>
+                GitHub
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="profile-card-wrapper">
+              <div class="profile-card-glow"></div>
+              <div class="profile-card">
+                <div class="profile-img-container">
+                  <img src="assets/profile.jpg" alt="Tufyal Ahmmed — AI-Augmented QA Engineer & SDET" width="715" height="893" loading="eager" fetchpriority="high">
+                </div>
+                <div class="profile-float-badge">
+                  <div class="float-badge-item">
+                    <span class="float-badge-num">4+ Years</span>
+                    <span class="float-badge-lbl">Experience</span>
+                  </div>
+                  <div class="float-badge-divider"></div>
+                  <div class="float-badge-item">
+                    <span class="float-badge-num">Multi-M</span>
+                    <span class="float-badge-lbl">User Apps</span>
+                  </div>
+                  <div class="float-badge-divider"></div>
+                  <div class="float-badge-item">
+                    <span class="float-badge-num">7+ Stacks</span>
+                    <span class="float-badge-lbl">Automated</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Metrics Ribbon -->
+    <div class="metrics-banner">
+      <div class="container">
+        <div class="metrics-grid">
+          <div class="metric-card">
+            <div class="metric-icon-box">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/>
+                <polyline points="12 6 12 12 16 14"/>
+              </svg>
+            </div>
+            <div>
+              <div class="metric-value">4+ Years</div>
+              <div class="metric-label">End-to-End QA & SDET</div>
+            </div>
+          </div>
+
+          <div class="metric-card">
+            <div class="metric-icon-box">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                <circle cx="9" cy="7" r="4"/>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+              </svg>
+            </div>
+            <div>
+              <div class="metric-value">Multi-Million</div>
+              <div class="metric-label">Telecom & Insurance Users</div>
+            </div>
+          </div>
+
+          <div class="metric-card">
+            <div class="metric-icon-box">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="16 18 22 12 16 6"/>
+                <polyline points="8 6 2 12 8 18"/>
+              </svg>
+            </div>
+            <div>
+              <div class="metric-value">7+ Suites</div>
+              <div class="metric-label">Open Source Frameworks</div>
+            </div>
+          </div>
+
+          <div class="metric-card">
+            <div class="metric-icon-box">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/>
+              </svg>
+            </div>
+            <div>
+              <div class="metric-value">AI + MCP</div>
+              <div class="metric-label">Next-Gen QA Pioneered</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Core Pillars / Specializations -->
+    <section class="section" id="specializations" style="background-color: var(--bg-surface-subtle);">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Core Capabilities</span>
+          <h2 class="section-title">What I Bring to the Table</h2>
+          <p class="section-subtitle">
+            Bridging robust test architectures with cutting-edge AI integrations and performance validation to guarantee stability at every stage of the SDLC.
+          </p>
+        </div>
+
+        <div class="pillars-grid">
+          <!-- Pillar 1: AI-Augmented QA -->
+          <div class="pillar-card ai">
+            <div class="pillar-icon-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/>
+              </svg>
+            </div>
+            <h3 class="pillar-title">AI-Augmented QA & MCP</h3>
+            <p class="pillar-desc">
+              Pioneered Appium MCP Server integration, enabling LLMs to interact directly with mobile test frameworks. Utilizing GitHub Copilot & Claude to auto-generate structured test cases, scripts, and bug reports from BRS/FRS and Figma.
+            </p>
+            <div class="pillar-tags">
+              <span class="tech-tag">Appium MCP</span>
+              <span class="tech-tag">Claude AI</span>
+              <span class="tech-tag">GitHub Copilot</span>
+              <span class="tech-tag">Prompt Eng</span>
+            </div>
+          </div>
+
+          <!-- Pillar 2: Web Automation -->
+          <div class="pillar-card web">
+            <div class="pillar-icon-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect width="20" height="14" x="2" y="3" rx="2"/>
+                <line x1="8" y1="21" x2="16" y2="21"/>
+                <line x1="12" y1="17" x2="12" y2="21"/>
+              </svg>
+            </div>
+            <h3 class="pillar-title">Web Test Automation</h3>
+            <p class="pillar-desc">
+              Designing scalable hybrid test automation frameworks in Java (Selenium, TestNG, JUnit) and JavaScript/TypeScript (Cypress, Playwright). Applied Page Object Model (POM) and BDD Cucumber for readable, maintainable regression suites.
+            </p>
+            <div class="pillar-tags">
+              <span class="tech-tag">Selenium</span>
+              <span class="tech-tag">Cypress</span>
+              <span class="tech-tag">Playwright</span>
+              <span class="tech-tag">Cucumber BDD</span>
+              <span class="tech-tag">POM</span>
+            </div>
+          </div>
+
+          <!-- Pillar 3: Mobile Automation -->
+          <div class="pillar-card mobile">
+            <div class="pillar-icon-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect width="14" height="20" x="5" y="2" rx="2" ry="2"/>
+                <path d="M12 18h.01"/>
+              </svg>
+            </div>
+            <h3 class="pillar-title">Mobile App Testing</h3>
+            <p class="pillar-desc">
+              End-to-end mobile QA across Android and iOS applications. Deep experience automating complex telecom super apps, gesture workflows, deep linking, and cross-device testing with Appium and cloud platforms like Perfecto.
+            </p>
+            <div class="pillar-tags">
+              <span class="tech-tag">Appium</span>
+              <span class="tech-tag">Android</span>
+              <span class="tech-tag">iOS</span>
+              <span class="tech-tag">Espresso</span>
+              <span class="tech-tag">Perfecto Cloud</span>
+            </div>
+          </div>
+
+          <!-- Pillar 4: API Testing -->
+          <div class="pillar-card api">
+            <div class="pillar-icon-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"/>
+              </svg>
+            </div>
+            <h3 class="pillar-title">API & Contract Automation</h3>
+            <p class="pillar-desc">
+              Validating microservices, data integrity, and authentication flows using Rest Assured (Java), Karate DSL, and Postman. Automated contract validation, complex payload assertions, token refreshing, and regression suites.
+            </p>
+            <div class="pillar-tags">
+              <span class="tech-tag">Rest Assured</span>
+              <span class="tech-tag">Karate DSL</span>
+              <span class="tech-tag">Postman</span>
+              <span class="tech-tag">JSON Schema</span>
+            </div>
+          </div>
+
+          <!-- Pillar 5: Performance Testing -->
+          <div class="pillar-card perf">
+            <div class="pillar-icon-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2v4"/>
+                <path d="m4.93 4.93 2.83 2.83"/>
+                <path d="M2 12h4"/>
+                <path d="m4.93 19.07 2.83-2.83"/>
+                <path d="M12 22v-4"/>
+                <path d="m19.07 19.07-2.83-2.83"/>
+                <path d="M22 12h-4"/>
+                <path d="m19.07 4.93-2.83 2.83"/>
+              </svg>
+            </div>
+            <h3 class="pillar-title">Performance & Resilience</h3>
+            <p class="pillar-desc">
+              Extending functional testing into load, stress, spike, and soak testing with k6, Apache JMeter, and Karate Gatling. Real-world bottleneck detection and latency monitoring via Kibana telemetry logs before production rollout.
+            </p>
+            <div class="pillar-tags">
+              <span class="tech-tag">k6</span>
+              <span class="tech-tag">Apache JMeter</span>
+              <span class="tech-tag">Karate Gatling</span>
+              <span class="tech-tag">Kibana</span>
+            </div>
+          </div>
+
+          <!-- Pillar 6: CI/CD & Test Ops -->
+          <div class="pillar-card cicd">
+            <div class="pillar-icon-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="18" cy="18" r="3"/>
+                <circle cx="6" cy="6" r="3"/>
+                <path d="M13 6h3a2 2 0 0 1 2 2v7"/>
+                <line x1="6" y1="9" x2="6" y2="21"/>
+              </svg>
+            </div>
+            <h3 class="pillar-title">CI/CD & Cloud Orchestration</h3>
+            <p class="pillar-desc">
+              Seamless pipeline integrations in Azure DevOps, GitHub Actions, and Bitbucket. Parallel cloud device executions on Perfecto Cloud and rich living documentation with Allure and Extent Reports.
+            </p>
+            <div class="pillar-tags">
+              <span class="tech-tag">Azure DevOps</span>
+              <span class="tech-tag">Git / GitHub</span>
+              <span class="tech-tag">Allure Reports</span>
+              <span class="tech-tag">Jira</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work Experience Timeline -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Career History</span>
+          <h2 class="section-title">Professional Experience</h2>
+          <p class="section-subtitle">
+            Demonstrated track record of delivering end-to-end quality for enterprise-grade insurance, multi-million-user telecom super apps, and high-traffic eCommerce ecosystems.
+          </p>
+        </div>
+
+        <div class="timeline">
+          <!-- Role 1: Portonics Limited -->
+          <div class="timeline-item current">
+            <div class="timeline-marker"></div>
+            <div class="experience-card">
+              <div class="exp-header">
+                <div>
+                  <h3 class="exp-role">Software QA Engineer</h3>
+                  <div class="exp-company">
+                    <span>Portonics Limited</span>
+                    <span class="exp-badge-current">Present</span>
+                  </div>
+                </div>
+                <div class="exp-period">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect width="18" height="18" x="3" y="4" rx="2" ry="2"/>
+                    <line x1="16" y1="2" x2="16" y2="6"/>
+                    <line x1="8" y1="2" x2="8" y2="6"/>
+                    <line x1="3" y1="10" x2="21" y2="10"/>
+                  </svg>
+                  <span>September 2024 – Present</span>
+                </div>
+              </div>
+
+              <div class="exp-projects-highlight">
+                Key Projects: <strong>Robi / Airtel Single App (Android, iOS, API)</strong> · <strong>Singer Bangladesh eCommerce Platform</strong>
+              </div>
+
+              <ul class="exp-bullets">
+                <li>
+                  <strong>Multi-Million-User Telecom Scale:</strong> Own end-to-end QA for a nationwide telecom super app across Android, iOS, web portals, CMS, and API backend layers.
+                </li>
+                <li>
+                  <strong>Appium MCP Server Integration:</strong> Pioneered the integration of Model Context Protocol (MCP) with Appium, allowing AI models to interact directly with the mobile automation framework, cutting scripting effort and accelerating test generation.
+                </li>
+                <li>
+                  <strong>AI-Augmented QA Workflows:</strong> Introduced AI-assisted testing using GitHub Copilot and Claude AI to auto-generate test cases, automation scripts, and structured Jira bug reports from BRS/FRS specifications and Figma designs.
+                </li>
+                <li>
+                  <strong>Performance & Telemetry:</strong> Conducted system performance analysis via Kibana log inspection to identify latency bottlenecks and validate production behavior under real user load.
+                </li>
+                <li>
+                  <strong>k6 Performance Testing:</strong> Recently integrated k6 performance testing into the QA workflow, extending coverage from functional UI/API testing to load, stress, and spike resilience testing.
+                </li>
+                <li>
+                  <strong>Cross-Functional Leadership:</strong> Partnered directly with developers, product managers, and enterprise stakeholders during UAT and backlog grooming sessions to translate complex business requirements into clear testable acceptance criteria.
+                </li>
+              </ul>
+
+              <div class="exp-tech-stack">
+                <span class="tech-tag">Appium</span>
+                <span class="tech-tag">Appium MCP Server</span>
+                <span class="tech-tag">k6</span>
+                <span class="tech-tag">Kibana</span>
+                <span class="tech-tag">Claude AI</span>
+                <span class="tech-tag">GitHub Copilot</span>
+                <span class="tech-tag">Jira</span>
+                <span class="tech-tag">REST APIs</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Role 2: MetLife Bangladesh -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="experience-card">
+              <div class="exp-header">
+                <div>
+                  <h3 class="exp-role">Software Development Engineer in Test (SDET)</h3>
+                  <div class="exp-company">
+                    <span>MetLife Bangladesh</span>
+                  </div>
+                </div>
+                <div class="exp-period">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect width="18" height="18" x="3" y="4" rx="2" ry="2"/>
+                    <line x1="16" y1="2" x2="16" y2="6"/>
+                    <line x1="8" y1="2" x2="8" y2="6"/>
+                    <line x1="3" y1="10" x2="21" y2="10"/>
+                  </svg>
+                  <span>September 2023 – September 2024</span>
+                </div>
+              </div>
+
+              <div class="exp-projects-highlight">
+                Focus: <strong>Enterprise Insurance Web & Mobile Ecosystems</strong> serving thousands of daily active policyholders.
+              </div>
+
+              <ul class="exp-bullets">
+                <li>
+                  <strong>Enterprise Test Strategy:</strong> Led requirement analysis, test planning, and automated test strategy design for enterprise-grade insurance solutions with strict regulatory and compliance standards.
+                </li>
+                <li>
+                  <strong>Hybrid Automation Framework:</strong> Built and scaled a robust hybrid automation framework from scratch using <strong>Java, Selenium, TestNG, JUnit-4, and Cucumber/Gherkin</strong> — applying Page Object Model (POM) and BDD patterns for readable, resilient test suites.
+                </li>
+                <li>
+                  <strong>API Automation with Rest Assured:</strong> Engineered end-to-end API automation test suites with Rest Assured, thoroughly validating critical policy generation, claim processing, payment gateways, and customer data flows.
+                </li>
+                <li>
+                  <strong>Cloud CI/CD & Perfecto Cloud:</strong> Orchestrated cloud-based parallel test execution on Perfecto via Azure DevOps pipelines, achieving fast feedback loops and extensive cross-device compatibility.
+                </li>
+                <li>
+                  <strong>Defect Reduction:</strong> Collaborated with cross-functional teams to translate complex insurance rules into structured test plans, substantially reducing production defects and boosting release predictability.
+                </li>
+              </ul>
+
+              <div class="exp-tech-stack">
+                <span class="tech-tag">Java</span>
+                <span class="tech-tag">Selenium WebDriver</span>
+                <span class="tech-tag">Cucumber BDD</span>
+                <span class="tech-tag">TestNG</span>
+                <span class="tech-tag">Rest Assured</span>
+                <span class="tech-tag">Azure DevOps</span>
+                <span class="tech-tag">Perfecto Cloud</span>
+                <span class="tech-tag">POM</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Role 3: Quality Up Services -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="experience-card">
+              <div class="exp-header">
+                <div>
+                  <h3 class="exp-role">SQA Engineer</h3>
+                  <div class="exp-company">
+                    <span>Quality Up Services</span>
+                  </div>
+                </div>
+                <div class="exp-period">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect width="18" height="18" x="3" y="4" rx="2" ry="2"/>
+                    <line x1="16" y1="2" x2="16" y2="6"/>
+                    <line x1="8" y1="2" x2="8" y2="6"/>
+                    <line x1="3" y1="10" x2="21" y2="10"/>
+                  </svg>
+                  <span>February 2022 – August 2023</span>
+                </div>
+              </div>
+
+              <div class="exp-projects-highlight">
+                Focus: <strong>Multi-client QA Delivery</strong> across web, Android, and API platforms.
+              </div>
+
+              <ul class="exp-bullets">
+                <li>
+                  <strong>Dual Automation Stacks:</strong> Engineered and maintained automation suites across two parallel tech stacks — <strong>Java (Selenium, TestNG, JUnit-4, Cucumber)</strong> and <strong>JavaScript (Cypress, Mocha)</strong> — maximizing agility across diverse client infrastructures.
+                </li>
+                <li>
+                  <strong>Comprehensive API Testing:</strong> Authored and executed extensive manual and automated API suites using Postman, Rest Assured, and Karate DSL, certifying contract integrity and business logic.
+                </li>
+                <li>
+                  <strong>Load & Scalability:</strong> Contributed to load and performance testing campaigns using Apache JMeter and Karate Gatling, identifying critical throughput thresholds and scalability bottlenecks ahead of product releases.
+                </li>
+                <li>
+                  <strong>Go-to QA Lead:</strong> Authored comprehensive test suites, defect triage reports, and regression test packs, becoming a trusted QA resource across multiple concurrent client accounts.
+                </li>
+              </ul>
+
+              <div class="exp-tech-stack">
+                <span class="tech-tag">Java</span>
+                <span class="tech-tag">Selenium</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Cypress</span>
+                <span class="tech-tag">Karate DSL</span>
+                <span class="tech-tag">JMeter</span>
+                <span class="tech-tag">Postman</span>
+                <span class="tech-tag">Git</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Projects Section -->
+    <section class="section" id="projects" style="background-color: var(--bg-surface-subtle);">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Code & Frameworks</span>
+          <h2 class="section-title">Featured Automation Projects</h2>
+          <p class="section-subtitle">
+            Open-source test automation repositories showcasing clean framework architectures, BDD patterns, parallel execution, and performance testing scripts.
+          </p>
+        </div>
+
+        <!-- Filter Tabs -->
+        <div class="filter-tabs">
+          <button class="filter-btn active" data-filter="all">All Projects (7)</button>
+          <button class="filter-btn" data-filter="web">Web Automation</button>
+          <button class="filter-btn" data-filter="mobile">Mobile Automation</button>
+          <button class="filter-btn" data-filter="api">API Automation</button>
+          <button class="filter-btn" data-filter="perf">Performance Testing</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid">
+
+          <!-- Project 1: Selenium Java Cucumber -->
+          <article class="project-card" data-category="web">
+            <div class="project-badge-strip">
+              <span class="project-category-badge web">Web Automation</span>
+              <a href="https://github.com/TufyalAhmmed/Cucumber_Parellall_Aroggo_Web" target="_blank" rel="noopener" class="project-github-link" title="View Source on GitHub" aria-label="Selenium Java Cucumber GitHub repo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/>
+                  <path d="M9 18c-4.51 2-5-2-7-2"/>
+                </svg>
+              </a>
+            </div>
+
+            <h3 class="project-title">
+              <a href="https://github.com/TufyalAhmmed/Cucumber_Parellall_Aroggo_Web" target="_blank" rel="noopener">
+                Parallel Web Automation with Selenium, Cucumber & Java
+              </a>
+            </h3>
+            <p class="project-desc">
+              A production-ready hybrid automation framework demonstrating multi-threaded parallel execution across cross-browser environments. Structured with the Page Object Model (POM) pattern and Cucumber BDD for enterprise readability.
+            </p>
+
+            <div class="project-highlights">
+              <div class="project-highlights-title">Key Framework Highlights</div>
+              <ul>
+                <li>Parallel test execution using TestNG thread pools and Maven surefire</li>
+                <li>Page Object Model (POM) with clean locator encapsulation & fluent waits</li>
+                <li>Automated screenshot capture on failure with Cucumber Extent reporting</li>
+              </ul>
+            </div>
+
+            <div class="project-footer">
+              <div class="project-tech-pills">
+                <span class="tech-tag">Java</span>
+                <span class="tech-tag">Selenium</span>
+                <span class="tech-tag">Cucumber BDD</span>
+                <span class="tech-tag">TestNG</span>
+                <span class="tech-tag">Maven</span>
+              </div>
+              <a href="https://github.com/TufyalAhmmed/Cucumber_Parellall_Aroggo_Web" target="_blank" rel="noopener" class="btn btn-secondary btn-sm">
+                <span>View Repo</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                  <polyline points="15 3 21 3 21 9"/>
+                  <line x1="10" y1="14" x2="21" y2="3"/>
+                </svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 2: Cypress Cucumber Allure -->
+          <article class="project-card" data-category="web">
+            <div class="project-badge-strip">
+              <span class="project-category-badge web">Web Automation</span>
+              <a href="https://github.com/TufyalAhmmed/Cypress-CucumberAutomation-PayDay" target="_blank" rel="noopener" class="project-github-link" title="View Source on GitHub" aria-label="Cypress Cucumber GitHub repo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/>
+                  <path d="M9 18c-4.51 2-5-2-7-2"/>
+                </svg>
+              </a>
+            </div>
+
+            <h3 class="project-title">
+              <a href="https://github.com/TufyalAhmmed/Cypress-CucumberAutomation-PayDay" target="_blank" rel="noopener">
+                Cypress Automation with Cucumber & Allure Reports
+              </a>
+            </h3>
+            <p class="project-desc">
+              Fast, deterministic JavaScript web test automation suite using Cypress with Gherkin BDD syntax and Allure reporting. Features headless execution, custom commands, and automated CI-ready test artifacts.
+            </p>
+
+            <div class="project-highlights">
+              <div class="project-highlights-title">Key Framework Highlights</div>
+              <ul>
+                <li>Integrated Cypress Cucumber Preprocessor for business-readable specs</li>
+                <li>Comprehensive Allure Report configuration with video & trace attachments</li>
+                <li>Custom Cypress commands and deterministic network stubbing</li>
+              </ul>
+            </div>
+
+            <div class="project-footer">
+              <div class="project-tech-pills">
+                <span class="tech-tag">Cypress</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Cucumber BDD</span>
+                <span class="tech-tag">Allure Reports</span>
+              </div>
+              <a href="https://github.com/TufyalAhmmed/Cypress-CucumberAutomation-PayDay" target="_blank" rel="noopener" class="btn btn-secondary btn-sm">
+                <span>View Repo</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                  <polyline points="15 3 21 3 21 9"/>
+                  <line x1="10" y1="14" x2="21" y2="3"/>
+                </svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 3: Mobile Appium -->
+          <article class="project-card" data-category="mobile">
+            <div class="project-badge-strip">
+              <span class="project-category-badge mobile">Mobile QA</span>
+              <a href="https://github.com/TufyalAhmmed/MobileAutomationPraavaApp" target="_blank" rel="noopener" class="project-github-link" title="View Source on GitHub" aria-label="Appium Mobile Automation GitHub repo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/>
+                  <path d="M9 18c-4.51 2-5-2-7-2"/>
+                </svg>
+              </a>
+            </div>
+
+            <h3 class="project-title">
+              <a href="https://github.com/TufyalAhmmed/MobileAutomationPraavaApp" target="_blank" rel="noopener">
+                Android App Automation Framework with Appium
+              </a>
+            </h3>
+            <p class="project-desc">
+              End-to-end mobile test framework for Android applications. Handles dynamic locators, mobile touch gestures (swipe, scroll, pinch), permission dialogs, and real-device testing sessions with robust error recovery.
+            </p>
+
+            <div class="project-highlights">
+              <div class="project-highlights-title">Key Framework Highlights</div>
+              <ul>
+                <li>UiAutomator2 driver integration with dynamic capability configuration</li>
+                <li>Reusable mobile gesture helpers for scrolling, swiping, and keyboard actions</li>
+                <li>Foundation architecture aligned with Appium MCP AI server integrations</li>
+              </ul>
+            </div>
+
+            <div class="project-footer">
+              <div class="project-tech-pills">
+                <span class="tech-tag">Appium</span>
+                <span class="tech-tag">Android</span>
+                <span class="tech-tag">Java</span>
+                <span class="tech-tag">UiAutomator2</span>
+                <span class="tech-tag">TestNG</span>
+              </div>
+              <a href="https://github.com/TufyalAhmmed/MobileAutomationPraavaApp" target="_blank" rel="noopener" class="btn btn-secondary btn-sm">
+                <span>View Repo</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                  <polyline points="15 3 21 3 21 9"/>
+                  <line x1="10" y1="14" x2="21" y2="3"/>
+                </svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 4: k6 Performance -->
+          <article class="project-card" data-category="perf">
+            <div class="project-badge-strip">
+              <span class="project-category-badge perf">Performance Testing</span>
+              <a href="https://github.com/TufyalAhmmed/k6-practice-" target="_blank" rel="noopener" class="project-github-link" title="View Source on GitHub" aria-label="k6 performance testing GitHub repo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/>
+                  <path d="M9 18c-4.51 2-5-2-7-2"/>
+                </svg>
+              </a>
+            </div>
+
+            <h3 class="project-title">
+              <a href="https://github.com/TufyalAhmmed/k6-practice-" target="_blank" rel="noopener">
+                Performance Testing with k6 — Load, Stress & Spike
+              </a>
+            </h3>
+            <p class="project-desc">
+              Modern JavaScript performance testing scripts for high-traffic REST APIs. Implements realistic user ramp-up stages, virtual user (VU) concurrency modeling, strict SLA threshold validations, and response time metrics.
+            </p>
+
+            <div class="project-highlights">
+              <div class="project-highlights-title">Key Framework Highlights</div>
+              <ul>
+                <li>Stage-based load profiles: Ramp-up, sustained peak, spike, and cool-down</li>
+                <li>SLA threshold gates (e.g. 95th percentile response time &lt; 200ms, error rate &lt; 1%)</li>
+                <li>Summary export, metrics breakdown, and CI/CD quality gate enforcement</li>
+              </ul>
+            </div>
+
+            <div class="project-footer">
+              <div class="project-tech-pills">
+                <span class="tech-tag">k6</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Load Testing</span>
+                <span class="tech-tag">Stress Testing</span>
+                <span class="tech-tag">REST API</span>
+              </div>
+              <a href="https://github.com/TufyalAhmmed/k6-practice-" target="_blank" rel="noopener" class="btn btn-secondary btn-sm">
+                <span>View Repo</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                  <polyline points="15 3 21 3 21 9"/>
+                  <line x1="10" y1="14" x2="21" y2="3"/>
+                </svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 5: Rest Assured API -->
+          <article class="project-card" data-category="api">
+            <div class="project-badge-strip">
+              <span class="project-category-badge api">API Automation</span>
+              <a href="https://github.com/TufyalAhmmed/DummyAPIrestAssured" target="_blank" rel="noopener" class="project-github-link" title="View Source on GitHub" aria-label="Rest Assured API GitHub repo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/>
+                  <path d="M9 18c-4.51 2-5-2-7-2"/>
+                </svg>
+              </a>
+            </div>
+
+            <h3 class="project-title">
+              <a href="https://github.com/TufyalAhmmed/DummyAPIrestAssured" target="_blank" rel="noopener">
+                Enterprise API Automation with Rest Assured & Java
+              </a>
+            </h3>
+            <p class="project-desc">
+              Comprehensive REST API automation framework built on Rest Assured and TestNG. Features dynamic payload serialization/deserialization via Jackson POJOs, bearer token authentication, and JSON schema validation.
+            </p>
+
+            <div class="project-highlights">
+              <div class="project-highlights-title">Key Framework Highlights</div>
+              <ul>
+                <li>Request & Response Specification builders for zero boilerplate code</li>
+                <li>POJO-based data serialization, deserialization, and schema assertion</li>
+                <li>Data-driven test execution via TestNG DataProvider & external JSON/Excel</li>
+              </ul>
+            </div>
+
+            <div class="project-footer">
+              <div class="project-tech-pills">
+                <span class="tech-tag">Rest Assured</span>
+                <span class="tech-tag">Java</span>
+                <span class="tech-tag">Jackson</span>
+                <span class="tech-tag">TestNG</span>
+                <span class="tech-tag">JSON Schema</span>
+              </div>
+              <a href="https://github.com/TufyalAhmmed/DummyAPIrestAssured" target="_blank" rel="noopener" class="btn btn-secondary btn-sm">
+                <span>View Repo</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                  <polyline points="15 3 21 3 21 9"/>
+                  <line x1="10" y1="14" x2="21" y2="3"/>
+                </svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 6: Karate DSL -->
+          <article class="project-card" data-category="api">
+            <div class="project-badge-strip">
+              <span class="project-category-badge api">API Automation</span>
+              <a href="https://github.com/TufyalAhmmed/KarateProject" target="_blank" rel="noopener" class="project-github-link" title="View Source on GitHub" aria-label="Karate DSL GitHub repo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/>
+                  <path d="M9 18c-4.51 2-5-2-7-2"/>
+                </svg>
+              </a>
+            </div>
+
+            <h3 class="project-title">
+              <a href="https://github.com/TufyalAhmmed/KarateProject" target="_blank" rel="noopener">
+                Unified API & Contract Automation with Karate DSL
+              </a>
+            </h3>
+            <p class="project-desc">
+              BDD-powered API test automation eliminating repetitive step-definition glue code. Performs deep JSON payloads comparison, fuzzy assertions, schema contract checks, and parallel test execution out-of-the-box.
+            </p>
+
+            <div class="project-highlights">
+              <div class="project-highlights-title">Key Framework Highlights</div>
+              <ul>
+                <li>No Java step definitions required; pure expressive Gherkin grammar</li>
+                <li>Built-in parallel execution and comprehensive HTML test reports</li>
+                <li>Powerful regex and fuzzy payload validation syntax</li>
+              </ul>
+            </div>
+
+            <div class="project-footer">
+              <div class="project-tech-pills">
+                <span class="tech-tag">Karate DSL</span>
+                <span class="tech-tag">BDD</span>
+                <span class="tech-tag">REST API</span>
+                <span class="tech-tag">Contract Testing</span>
+              </div>
+              <a href="https://github.com/TufyalAhmmed/KarateProject" target="_blank" rel="noopener" class="btn btn-secondary btn-sm">
+                <span>View Repo</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                  <polyline points="15 3 21 3 21 9"/>
+                  <line x1="10" y1="14" x2="21" y2="3"/>
+                </svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 7: Karate Gatling & JMeter -->
+          <article class="project-card" data-category="perf">
+            <div class="project-badge-strip">
+              <span class="project-category-badge perf">Performance Testing</span>
+              <a href="https://github.com/TufyalAhmmed/KarateGatlingWithDemoBlaze" target="_blank" rel="noopener" class="project-github-link" title="View Source on GitHub" aria-label="Karate Gatling GitHub repo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/>
+                  <path d="M9 18c-4.51 2-5-2-7-2"/>
+                </svg>
+              </a>
+            </div>
+
+            <h3 class="project-title">
+              <a href="https://github.com/TufyalAhmmed/KarateGatlingWithDemoBlaze" target="_blank" rel="noopener">
+                Performance & Concurrency Testing with Karate Gatling
+              </a>
+            </h3>
+            <p class="project-desc">
+              High-throughput performance testing framework leveraging Karate DSL scripts as Gatling performance scenarios. Simulates concurrent user behavior on eCommerce checkout and login flows to identify bottleneck limits.
+            </p>
+
+            <div class="project-highlights">
+              <div class="project-highlights-title">Key Framework Highlights</div>
+              <ul>
+                <li>Reuses functional Karate API feature files as Gatling load simulations</li>
+                <li>High-concurrency user injection profiles (rampUsers, constantUsersPerSec)</li>
+                <li>Detailed Gatling HTML graphical reports with latency percentiles</li>
+              </ul>
+            </div>
+
+            <div class="project-footer">
+              <div class="project-tech-pills">
+                <span class="tech-tag">Karate Gatling</span>
+                <span class="tech-tag">Scala</span>
+                <span class="tech-tag">JMeter</span>
+                <span class="tech-tag">Stress Testing</span>
+              </div>
+              <a href="https://github.com/TufyalAhmmed/KarateGatlingWithDemoBlaze" target="_blank" rel="noopener" class="btn btn-secondary btn-sm">
+                <span>View Repo</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                  <polyline points="15 3 21 3 21 9"/>
+                  <line x1="10" y1="14" x2="21" y2="3"/>
+                </svg>
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Skills Matrix -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Toolkit & Competencies</span>
+          <h2 class="section-title">Technical Expertise</h2>
+          <p class="section-subtitle">
+            A comprehensive, battle-tested stack spanning test automation, performance engineering, AI-augmented tooling, and enterprise cloud DevOps.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Category 1: Automation Web & Mobile -->
+          <div class="skill-category-card">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect width="20" height="14" x="2" y="3" rx="2"/>
+                  <line x1="8" y1="21" x2="16" y2="21"/>
+                  <line x1="12" y1="17" x2="12" y2="21"/>
+                </svg>
+              </div>
+              <h3 class="skill-cat-title">Automation (Web & Mobile)</h3>
+            </div>
+            <div class="skill-items-list">
+              <span class="skill-chip featured">Selenium WebDriver</span>
+              <span class="skill-chip featured">Cypress</span>
+              <span class="skill-chip featured">Appium</span>
+              <span class="skill-chip">Playwright</span>
+              <span class="skill-chip">Espresso</span>
+              <span class="skill-chip">Cross-Device Testing</span>
+            </div>
+          </div>
+
+          <!-- Category 2: AI-Augmented QA -->
+          <div class="skill-category-card">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/>
+                </svg>
+              </div>
+              <h3 class="skill-cat-title">AI-Augmented QA & MCP</h3>
+            </div>
+            <div class="skill-items-list">
+              <span class="skill-chip featured">Appium MCP Server</span>
+              <span class="skill-chip featured">GitHub Copilot</span>
+              <span class="skill-chip featured">Claude AI</span>
+              <span class="skill-chip">OpenAI Codex</span>
+              <span class="skill-chip">Prompt Engineering</span>
+              <span class="skill-chip">AI Script Synthesis</span>
+            </div>
+          </div>
+
+          <!-- Category 3: API & Performance Testing -->
+          <div class="skill-category-card">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"/>
+                </svg>
+              </div>
+              <h3 class="skill-cat-title">API & Performance Testing</h3>
+            </div>
+            <div class="skill-items-list">
+              <span class="skill-chip featured">Rest Assured</span>
+              <span class="skill-chip featured">k6 Performance</span>
+              <span class="skill-chip featured">Karate DSL</span>
+              <span class="skill-chip">Postman</span>
+              <span class="skill-chip">Apache JMeter</span>
+              <span class="skill-chip">Karate Gatling</span>
+            </div>
+          </div>
+
+          <!-- Category 4: Frameworks & Design Patterns -->
+          <div class="skill-category-card">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="m21.44 11.05-9.19 9.19a6 6 0 0 1-8.49-8.49l8.57-8.57A4 4 0 1 1 18 8.84l-8.59 8.57a2 2 0 0 1-2.83-2.83l8.49-8.48"/>
+                </svg>
+              </div>
+              <h3 class="skill-cat-title">Frameworks & Patterns</h3>
+            </div>
+            <div class="skill-items-list">
+              <span class="skill-chip featured">Page Object Model (POM)</span>
+              <span class="skill-chip featured">BDD (Cucumber / Gherkin)</span>
+              <span class="skill-chip">TestNG / JUnit-4</span>
+              <span class="skill-chip">Data-Driven Testing</span>
+              <span class="skill-chip">TDD</span>
+              <span class="skill-chip">Hybrid Frameworks</span>
+            </div>
+          </div>
+
+          <!-- Category 5: Languages & Database -->
+          <div class="skill-category-card">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="16 18 22 12 16 6"/>
+                  <polyline points="8 6 2 12 8 18"/>
+                </svg>
+              </div>
+              <h3 class="skill-cat-title">Languages & Database</h3>
+            </div>
+            <div class="skill-items-list">
+              <span class="skill-chip featured">Java</span>
+              <span class="skill-chip featured">JavaScript</span>
+              <span class="skill-chip">TypeScript</span>
+              <span class="skill-chip">Python</span>
+              <span class="skill-chip">SQL (MySQL)</span>
+              <span class="skill-chip">JSON / XML</span>
+            </div>
+          </div>
+
+          <!-- Category 6: CI/CD, DevOps & Tracking -->
+          <div class="skill-category-card">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="3"/>
+                  <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+                </svg>
+              </div>
+              <h3 class="skill-cat-title">CI/CD, Cloud & Reporting</h3>
+            </div>
+            <div class="skill-items-list">
+              <span class="skill-chip featured">Azure DevOps</span>
+              <span class="skill-chip featured">Allure Reports</span>
+              <span class="skill-chip">Perfecto Cloud</span>
+              <span class="skill-chip">Git / GitHub</span>
+              <span class="skill-chip">Jira / ZenHub</span>
+              <span class="skill-chip">Kibana Logs</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education & Professional Reference -->
+    <section class="section" id="education" style="background-color: var(--bg-surface-subtle);">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Credentials</span>
+          <h2 class="section-title">Education & References</h2>
+          <p class="section-subtitle">
+            Academic foundations in Computer Science & Engineering paired with verified industry endorsements.
+          </p>
+        </div>
+
+        <div class="edu-ref-grid">
+          <!-- Education Column -->
+          <div class="edu-card">
+            <h3 style="font-size: 1.35rem; font-weight: 700; margin-bottom: 1.5rem; display: flex; align-items: center; gap: 0.5rem;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--accent-primary);">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+              </svg>
+              Academic Background
+            </h3>
+
+            <div class="edu-timeline-item">
+              <div class="edu-degree">Bachelor of Science in Computer Science & Engineering (B.Sc. CSE)</div>
+              <div class="edu-institution">Daffodil International University, Dhaka, Bangladesh</div>
+              <div class="edu-year">Graduated: 2021</div>
+            </div>
+
+            <div class="edu-timeline-item">
+              <div class="edu-degree">Higher Secondary Certificate (H.S.C) — Science</div>
+              <div class="edu-institution">Agricultural University College, Mymensingh</div>
+              <div class="edu-year">Completed: 2013</div>
+            </div>
+
+            <div class="edu-timeline-item">
+              <div class="edu-degree">Secondary School Certificate (S.S.C) — Science</div>
+              <div class="edu-institution">Bhaluka Pilot High School, Bhaluka</div>
+              <div class="edu-year">Completed: 2011</div>
+            </div>
+          </div>
+
+          <!-- Professional Reference Column -->
+          <div class="ref-card">
+            <h3 style="font-size: 1.35rem; font-weight: 700; margin-bottom: 1.5rem; display: flex; align-items: center; gap: 0.5rem;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--accent-teal);">
+                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+                <circle cx="9" cy="7" r="4"/>
+                <polyline points="16 11 18 13 22 9"/>
+              </svg>
+              Professional Reference
+            </h3>
+
+            <p style="font-size: 0.9375rem; color: var(--text-secondary); line-height: 1.6;">
+              Industry colleague and professional endorsement available upon request:
+            </p>
+
+            <div class="reference-box">
+              <div class="ref-name">Ehsanul Alam Sabbir</div>
+              <div class="ref-title">Senior QA Engineer at Vivasoft Limited</div>
+              <a href="mailto:easabbir@gmail.com" class="ref-email">
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect width="20" height="16" x="2" y="4" rx="2"/>
+                  <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+                </svg>
+                easabbir@gmail.com
+              </a>
+            </div>
+
+            <div style="margin-top: 1.5rem; padding: 1.25rem; border-radius: var(--radius-md); background-color: var(--accent-primary-subtle); border: 1px dashed var(--accent-primary);">
+              <div style="font-weight: 700; font-size: 0.9375rem; color: var(--accent-primary); margin-bottom: 0.35rem;">
+                Looking for a Senior QA / SDET?
+              </div>
+              <p style="font-size: 0.85rem; color: var(--text-secondary); line-height: 1.5;">
+                I'm actively open to discussions regarding SDET, QA Automation Lead, and Quality Engineering opportunities locally and remotely.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Call to Action -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="contact-card">
+          <span class="section-tag" style="background-color: var(--bg-surface);">Get In Touch</span>
+          <h2 class="contact-card-title">Let's Build Resilient Software Together</h2>
+          <p class="contact-card-desc">
+            Whether you want to discuss scaling an automation framework, integrating AI workflows with Appium MCP, running k6 load resilience tests, or discussing an open SDET opportunity, I'd love to connect.
+          </p>
+
+          <div class="contact-channels-grid">
+            <!-- Email Channel -->
+            <a href="mailto:ahmmedtufyal1@gmail.com" class="channel-btn">
+              <div class="channel-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect width="20" height="16" x="2" y="4" rx="2"/>
+                  <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+                </svg>
+              </div>
+              <span class="channel-label">Email Me</span>
+              <span class="channel-val">ahmmedtufyal1@gmail.com</span>
+            </a>
+
+            <!-- Phone Channel -->
+            <a href="tel:+8801679560509" class="channel-btn">
+              <div class="channel-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                </svg>
+              </div>
+              <span class="channel-label">Phone & WhatsApp</span>
+              <span class="channel-val">+8801679560509</span>
+            </a>
+
+            <!-- LinkedIn Channel -->
+            <a href="https://www.linkedin.com/in/tufyalahmmed" target="_blank" rel="noopener" class="channel-btn">
+              <div class="channel-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                  <rect width="4" height="12" x="2" y="9"/>
+                  <circle cx="4" cy="4" r="2"/>
+                </svg>
+              </div>
+              <span class="channel-label">LinkedIn</span>
+              <span class="channel-val">in/tufyalahmmed</span>
+            </a>
+
+            <!-- GitHub Channel -->
+            <a href="https://github.com/TufyalAhmmed" target="_blank" rel="noopener" class="channel-btn">
+              <div class="channel-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/>
+                  <path d="M9 18c-4.51 2-5-2-7-2"/>
+                </svg>
+              </div>
+              <span class="channel-label">GitHub</span>
+              <span class="channel-val">@TufyalAhmmed</span>
+            </a>
+          </div>
+
+          <div style="display: flex; align-items: center; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+            <button class="btn btn-secondary btn-sm" data-copy-text="ahmmedtufyal1@gmail.com">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect width="14" height="14" x="8" y="8" rx="2" ry="2"/>
+                <path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/>
+              </svg>
+              <span>Copy Email Address</span>
+            </button>
+
+            <button class="btn btn-secondary btn-sm" data-copy-text="+8801679560509">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect width="14" height="14" x="8" y="8" rx="2" ry="2"/>
+                <path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/>
+              </svg>
+              <span>Copy Phone Number</span>
+            </button>
+
+            <a href="assets/Tufyal_Ahmmed_Resume.pdf" class="btn btn-primary btn-sm" download target="_blank" rel="noopener">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                <polyline points="7 10 12 15 17 10"/>
+                <line x1="12" y1="15" x2="12" y2="3"/>
+              </svg>
+              <span>Download CV (PDF)</span>
+            </a>
+          </div>
+
+          <!-- Toast Notification Pill -->
+          <div id="copy-toast" class="copy-notification" role="status" aria-live="polite">
+            Copied to clipboard!
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div>
+        <p style="font-weight: 600; color: var(--text-primary); margin-bottom: 0.2rem;">
+          Tufyal Ahmmed — AI-Augmented QA Engineer & SDET
+        </p>
+        <p style="font-size: 0.8125rem; color: var(--text-muted);">
+          &copy; <span id="current-year">2026</span> Tufyal Ahmmed. Crafted with care for GitHub Pages & Resume presentation.
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+        <a href="#top" style="color: var(--accent-primary); font-weight: 600;">Back to Top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>
